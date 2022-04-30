@@ -1,0 +1,109 @@
+{% extends "basic.html" %}
+{%load static%}
+
+{% block content %}
+
+    <!-- Portfolio Gallery Grid -->
+    <div class="container-fluid text-center bg-grey">
+      <h2>Portfolio</h2>
+      <div class="row text-center">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="{% static 'app/img/cake1.jpg' %}" alt="Cherry pie">
+            <p><strong>Cherry pie</strong></p>
+            <p>100g 5BYR</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="{% static 'app/img/cake2.jpg' %}" alt="Tropical Honolulu">
+            <p><strong>Tropical Honolulu</strong></p>
+            <p>100g 6BYR</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="{% static 'app/img/cake3.jpg' %}" alt="Macaroni pie">
+            <p><strong>Macaroni pie</strong></p>
+            <p>100g 7BYR</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="{% static 'app/img/cake4.jpg' %}" alt="Meringue pie">
+            <p><strong>Meringue pie</strong></p>
+            <p>100g 5BYR</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="{% static 'app/img/cake5.jpg' %}" alt="The Frankfurt wreath">
+            <p><strong>The Frankfurt wreath</strong></p>
+            <p>100g 5BYR</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="{% static 'app/img/cake6.jpg' %}" alt="The chocolate cake">
+            <p><strong>The chocolate cake</strong></p>
+            <p>100g 5BYR</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="{% static 'app/img/cake7.jpg' %}" alt="Cream pie">
+            <p><strong>Cream pie</strong></p>
+            <p>100g 6BYR</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="{% static 'app/img/cookies1.jpg' %}" alt="Swedish coffee cookie">
+            <p><strong>Swedish coffee cookie</strong></p>
+            <p>100g 6BYR</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="{% static 'app/img/cookies2.jpg' %}" alt="Raspberry cupcakes">
+            <p><strong>Raspberry cupcakes</strong></p>
+            <p>100g 5BYR</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="{% static 'app/img/cookies3.jpg' %}" alt="French eclair">
+            <p><strong>French e&rsquo;clair</strong></p>
+            <p>85g 3BYR</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="{% static 'app/img/cookies4.jpg' %}" alt="Cardamom bunsk">
+            <p><strong>Cardamom buns</strong></p>
+            <p>100g 4BYR</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="{% static 'app/img/macaroons.jpg' %}" alt="Chocolate macarons">
+            <p><strong>Chocolate macarons</strong></p>
+            <p>85g 2BYR</p>
+          </div>
+        </div>
+    </div>
+
+    
+    <div class="content">
+        <div class="container">
+            <img src="{% static 'app/img/chef.jpg' %}" alt="chef" style="width:50%" class="img-circle" >
+            <span><a href="tel:+375257776655"><button class="btn">CALL ME</button></a></span>
+          </div>
+    </div>
+    
+    <!-- END MAIN -->
+    </div>
+    
+    
+{% endblock content %}
+
